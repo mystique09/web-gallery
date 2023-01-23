@@ -17,11 +17,7 @@
 			content: 'Home'
 		},
 		{
-			href: '/#about-us',
-			content: 'About us'
-		},
-		{
-			href: '/#contact-us',
+			href: '/contact-us',
 			content: 'Contact us'
 		}
 	] satisfies NavLink[];
