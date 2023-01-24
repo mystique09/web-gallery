@@ -68,7 +68,7 @@
 		in:slide={{ duration: 300 }}
 		out:slide={{ duration: 200 }}
 		class:hidden={!isOpen}
-		class="absolute bg-neutral w-screen py-6 px-4 top-0 left-0 h-screen z-10 md:hidden"
+		class="fixed bg-neutral w-screen py-6 px-4 top-0 left-0 h-screen z-10 md:hidden"
 	>
 		<div class="w-full flex flex-row items-center justify-end">
 			<button on:click={toggleMenu} type="button" name="navbar-close-button">
