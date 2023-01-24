@@ -4,6 +4,10 @@
 	let animalInfo = $gallery.find((animal) => animal.id === $page.params.uuid);
 </script>
 
+<svelte:head>
+	<title>About {animalInfo?.title ?? "Not found"}</title>
+</svelte:head>
+
 <div class="container container-lg min-h-screen  m-auto">
 	<div class="w-full px-4 my-12">
 		<figure class="md:w-1/2 m-auto">

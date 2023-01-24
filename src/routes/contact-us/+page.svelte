@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>Contact us</title>
+</svelte:head>
+
 <div class="min-h-screen h-screen">
 	<div class="w-full max-w-6xl m-auto h-full">
 		<div class="flex flex-col items-center justify-center h-full">

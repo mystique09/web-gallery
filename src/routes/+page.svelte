@@ -13,6 +13,10 @@
 	});
 </script>
 
+<svelte:head>
+	<title>Web gallery</title>
+</svelte:head>
+
 <Home />
 <div id="about" class="mb-12 container w-full">
 	<div class="w-full m-auto">
