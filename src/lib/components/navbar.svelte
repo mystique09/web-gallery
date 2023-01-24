@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { slide } from 'svelte/transition';
+	import Camera from './icons/camera.svelte';
 
 	let isOpen = false;
 	const toggleMenu = () => {
@@ -17,6 +18,10 @@
 			content: 'Home'
 		},
 		{
+			href: '/#about',
+			content: 'Gallery'
+		},
+		{
 			href: '/contact-us',
 			content: 'Contact us'
 		}
@@ -25,8 +30,10 @@
 
 <div class="container container-lg m-auto">
 	<div class="navbar px-4">
-		<a href="/" draggable="false" class="text-primary navbar-start font-bold text-2xl">Brand Name</a
-		>
+		<a href="/" draggable="false" class="navbar-start font-normal tracking-wide text-xl gap-2">
+			<Camera className="w-8 stroke-primary" />
+			<span>WebGallery</span>
+		</a>
 		<ul class="navbar-end gap-8 hidden md:flex">
 			{#each navLinks as navLink}
 				<li class="hover:scale-110 hover:text-primary duration-200">
