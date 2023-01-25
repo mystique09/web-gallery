@@ -15,9 +15,9 @@ export const images = [
         id: "slide-1",
         unsplash: "https://unsplash.com/photos/nKC772R_qog",
         url: "https://images.unsplash.com/photo-1529778873920-4da4926a72c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80",
-        title: "Cute litte cat",
+        title: "Tabby cat",
         description:
-            "A cat is a small carnivorous mammal. It is the only domesticated species in the family Felidae and often referred to as the domestic cat to distinguish it from wild members of the family. The cat is either a house cat, kept as a pet, or a feral cat, freely ranging and avoiding human contact. A house cat is valued by humans for companionship and for its ability to hunt rodents. About 60 cat breeds are recognized by various cat registries.",
+            `A tabby is any domestic cat (Felis catus) with a distinctive 'M'-shaped marking on its forehead; stripes by its eyes and across its cheeks, along its back, and around its legs and tail; and (differing by tabby type), characteristic striped, dotted, lined, flecked, banded, or swirled patterns on the body—neck, shoulders, sides, flanks, chest, and abdomen. "Tabby" is not a breed of cat, but a coat type seen in almost all genetic lines of domestic cats, regardless of status.`,
         next: "#slide-2",
         previous: "#slide-4",
     },

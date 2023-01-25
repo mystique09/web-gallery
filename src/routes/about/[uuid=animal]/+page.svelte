@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-	<title>About {animalInfo?.title ?? "Not found"}</title>
+	<title>About {animalInfo?.title ?? 'Not found'}</title>
 </svelte:head>
 
 <div class="container container-lg min-h-screen  m-auto">
@@ -17,7 +17,7 @@
 				src={animalInfo?.url}
 				alt={animalInfo?.title}
 			/>
-			<h1 class="font-bold text-4xl mt-2 text-white">{animalInfo?.title}</h1>
+			<h1 class="font-bold text-4xl mt-2 text-white">About {animalInfo?.title}</h1>
 			<p class="text-sm mt-2">{animalInfo?.description}</p>
 			<a
 				target="_blank"

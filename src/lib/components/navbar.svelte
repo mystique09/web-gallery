@@ -19,7 +19,7 @@
 		},
 		{
 			href: '/#about',
-			content: 'Gallery'
+			content: 'About'
 		},
 		{
 			href: '/contact-us',
