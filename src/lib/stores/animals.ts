@@ -19,7 +19,7 @@ export const images = [
         description:
             `A tabby is any domestic cat (Felis catus) with a distinctive 'M'-shaped marking on its forehead; stripes by its eyes and across its cheeks, along its back, and around its legs and tail; and (differing by tabby type), characteristic striped, dotted, lined, flecked, banded, or swirled patterns on the body—neck, shoulders, sides, flanks, chest, and abdomen. "Tabby" is not a breed of cat, but a coat type seen in almost all genetic lines of domestic cats, regardless of status.`,
         next: "#slide-2",
-        previous: "#slide-4",
+        previous: "#slide-7",
     },
     {
         id: "slide-2",
@@ -58,7 +58,7 @@ export const images = [
         title: "Eastern American Fox",
         description: "The American red fox is a North American subspecies of the red fox. It is the largest of the true foxes and one of the most widely distributed members of the order Carnivora, occurring in North America. This subspecies is most likely the ancestor of the domesticated silver fox.",
         next: "#slide-6",
-        previous: "slide-4",
+        previous: "#slide-4",
     },
     {
         id: "slide-6",
